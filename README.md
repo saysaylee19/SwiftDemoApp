@@ -4,7 +4,7 @@ This App displays videos to users.
 Users are able to see a guide and Stats of how many videos he has liked and disliked
 User can swipe videos to like or dislike them
 
-Database right not consists of 3 tables
+Used local Database SQLite - It consists of 3 tables
 Users - User details like, name, id, number of videos liked, number of videos disliked
 VideoContent - Static data mainly containing video id, url and catageory of videos
 Interests - Data about user interactions with a videos, user id, video id and reaction. 1 - Like, 0 - Dislike
