@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B04CFD02B89BEEE007C2255 /* Apex-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFB52B89BEE9007C2255 /* Apex-1.mp4 */; };
+		9B04CFD12B89BEEE007C2255 /* Sims-3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFBD2B89BEE9007C2255 /* Sims-3.mp4 */; };
+		9B04CFD22B89BEEE007C2255 /* Apex-7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFBE2B89BEEA007C2255 /* Apex-7.mp4 */; };
+		9B04CFD32B89BEEE007C2255 /* Sims-1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFBF2B89BEEA007C2255 /* Sims-1.mp4 */; };
+		9B04CFD42B89BEEE007C2255 /* Apex-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFC02B89BEEA007C2255 /* Apex-2.mp4 */; };
+		9B04CFD52B89BEEE007C2255 /* Sims-2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFC12B89BEEA007C2255 /* Sims-2.mp4 */; };
+		9B04CFD62B89BEEE007C2255 /* Apex-9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFC22B89BEEB007C2255 /* Apex-9.mp4 */; };
+		9B04CFD72B89BEEE007C2255 /* Sims-6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFC32B89BEEB007C2255 /* Sims-6.mp4 */; };
+		9B04CFD82B89BEEE007C2255 /* Sims-7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFC42B89BEEB007C2255 /* Sims-7.mp4 */; };
+		9B04CFD92B89BEEE007C2255 /* Sims-5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFC52B89BEEB007C2255 /* Sims-5.mp4 */; };
+		9B04CFDA2B89BEEE007C2255 /* Sims-8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFC62B89BEEB007C2255 /* Sims-8.mp4 */; };
+		9B04CFDB2B89BEEE007C2255 /* Sims-9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFC72B89BEEB007C2255 /* Sims-9.mp4 */; };
+		9B04CFDC2B89BEEE007C2255 /* Sims-10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFC82B89BEEB007C2255 /* Sims-10.mp4 */; };
+		9B04CFDD2B89BEEE007C2255 /* Sims-4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFC92B89BEEB007C2255 /* Sims-4.mp4 */; };
+		9B04CFDE2B89BEEE007C2255 /* Apex-8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFCA2B89BEEC007C2255 /* Apex-8.mp4 */; };
+		9B04CFDF2B89BEEE007C2255 /* Apex-4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFCB2B89BEEC007C2255 /* Apex-4.mp4 */; };
+		9B04CFE02B89BEEE007C2255 /* Apex-10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFCC2B89BEED007C2255 /* Apex-10.mp4 */; };
+		9B04CFE12B89BEEE007C2255 /* Apex-3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFCD2B89BEEE007C2255 /* Apex-3.mp4 */; };
+		9B04CFE22B89BEEE007C2255 /* Apex-5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFCE2B89BEEE007C2255 /* Apex-5.mp4 */; };
+		9B04CFE32B89BEEE007C2255 /* Apex-6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 9B04CFCF2B89BEEE007C2255 /* Apex-6.mp4 */; };
+		9B04CFE52B89D52B007C2255 /* Header.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B04CFE42B89D52B007C2255 /* Header.swift */; };
+		9B237F982B88B72C00DA1E63 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B237F972B88B72C00DA1E63 /* InfoView.swift */; };
+		9B4190502B899C4C008AE56A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B41904F2B899C4C008AE56A /* ContentView.swift */; };
+		9B4190522B89A16B008AE56A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4190512B89A16B008AE56A /* CardView.swift */; };
+		9B5728B32B883707000D777E /* SQLite.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5728A52B8836F1000D777E /* SQLite.framework */; };
+		9B5728B42B883707000D777E /* SQLite.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9B5728A52B8836F1000D777E /* SQLite.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9B5728B72B8837D1000D777E /* DBUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B5728B62B8837D1000D777E /* DBUtil.swift */; };
+		9B67AE962B87339B0074A6CD /* gametintokApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67AE952B87339B0074A6CD /* gametintokApp.swift */; };
+		9B67AE9A2B87339C0074A6CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B67AE992B87339C0074A6CD /* Assets.xcassets */; };
+		9B67AE9D2B87339C0074A6CD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B67AE9C2B87339C0074A6CD /* Preview Assets.xcassets */; };
+		9B67AEA42B8735F50074A6CD /* VideoContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67AEA32B8735F50074A6CD /* VideoContent.swift */; };
+		9B67AEAA2B87374E0074A6CD /* VideoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67AEA92B87374E0074A6CD /* VideoData.swift */; };
+		9B67AEAD2B873B570074A6CD /* GuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67AEAC2B873B570074A6CD /* GuideView.swift */; };
+		9B67AEB42B873E320074A6CD /* Guide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67AEB32B873E320074A6CD /* Guide.swift */; };
+		9B67AEB82B8758170074A6CD /* LikeDislikeModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67AEB72B8758170074A6CD /* LikeDislikeModifier.swift */; };
+		9B67AECE2B8834960074A6CD /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67AECD2B8834960074A6CD /* Users.swift */; };
+		9B67AED02B8834AB0074A6CD /* Interests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B67AECF2B8834AB0074A6CD /* Interests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B5728A42B8836F1000D777E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B57289A2B8836F1000D777E /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		9B5728A62B8836F1000D777E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B57289A2B8836F1000D777E /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		9B5728A82B8836F1000D777E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B57289A2B8836F1000D777E /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		9B5728AA2B8836F1000D777E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B57289A2B8836F1000D777E /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		9B5728AC2B8836F1000D777E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B57289A2B8836F1000D777E /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		9B5728AE2B8836F1000D777E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B57289A2B8836F1000D777E /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
+		9B5728B02B8836F1000D777E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B57289A2B8836F1000D777E /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A121AC451CA35C79005A31D1;
+			remoteInfo = "SQLite watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9B5728B52B883707000D777E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				9B5728B42B883707000D777E /* SQLite.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9B04CFB52B89BEE9007C2255 /* Apex-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex-1.mp4"; sourceTree = "<group>"; };
+		9B04CFBD2B89BEE9007C2255 /* Sims-3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sims-3.mp4"; sourceTree = "<group>"; };
+		9B04CFBE2B89BEEA007C2255 /* Apex-7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex-7.mp4"; sourceTree = "<group>"; };
+		9B04CFBF2B89BEEA007C2255 /* Sims-1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sims-1.mp4"; sourceTree = "<group>"; };
+		9B04CFC02B89BEEA007C2255 /* Apex-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex-2.mp4"; sourceTree = "<group>"; };
+		9B04CFC12B89BEEA007C2255 /* Sims-2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sims-2.mp4"; sourceTree = "<group>"; };
+		9B04CFC22B89BEEB007C2255 /* Apex-9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex-9.mp4"; sourceTree = "<group>"; };
+		9B04CFC32B89BEEB007C2255 /* Sims-6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sims-6.mp4"; sourceTree = "<group>"; };
+		9B04CFC42B89BEEB007C2255 /* Sims-7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sims-7.mp4"; sourceTree = "<group>"; };
+		9B04CFC52B89BEEB007C2255 /* Sims-5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sims-5.mp4"; sourceTree = "<group>"; };
+		9B04CFC62B89BEEB007C2255 /* Sims-8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sims-8.mp4"; sourceTree = "<group>"; };
+		9B04CFC72B89BEEB007C2255 /* Sims-9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sims-9.mp4"; sourceTree = "<group>"; };
+		9B04CFC82B89BEEB007C2255 /* Sims-10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sims-10.mp4"; sourceTree = "<group>"; };
+		9B04CFC92B89BEEB007C2255 /* Sims-4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sims-4.mp4"; sourceTree = "<group>"; };
+		9B04CFCA2B89BEEC007C2255 /* Apex-8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex-8.mp4"; sourceTree = "<group>"; };
+		9B04CFCB2B89BEEC007C2255 /* Apex-4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex-4.mp4"; sourceTree = "<group>"; };
+		9B04CFCC2B89BEED007C2255 /* Apex-10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex-10.mp4"; sourceTree = "<group>"; };
+		9B04CFCD2B89BEEE007C2255 /* Apex-3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex-3.mp4"; sourceTree = "<group>"; };
+		9B04CFCE2B89BEEE007C2255 /* Apex-5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex-5.mp4"; sourceTree = "<group>"; };
+		9B04CFCF2B89BEEE007C2255 /* Apex-6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Apex-6.mp4"; sourceTree = "<group>"; };
+		9B04CFE42B89D52B007C2255 /* Header.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Header.swift; sourceTree = "<group>"; };
+		9B237F972B88B72C00DA1E63 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		9B41904F2B899C4C008AE56A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9B4190512B89A16B008AE56A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9B57289A2B8836F1000D777E /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		9B5728B62B8837D1000D777E /* DBUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBUtil.swift; sourceTree = "<group>"; };
+		9B67AE922B87339B0074A6CD /* gametintok.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gametintok.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B67AE952B87339B0074A6CD /* gametintokApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gametintokApp.swift; sourceTree = "<group>"; };
+		9B67AE992B87339C0074A6CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B67AE9C2B87339C0074A6CD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9B67AEA32B8735F50074A6CD /* VideoContent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoContent.swift; sourceTree = "<group>"; };
+		9B67AEA92B87374E0074A6CD /* VideoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoData.swift; sourceTree = "<group>"; };
+		9B67AEAC2B873B570074A6CD /* GuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView.swift; sourceTree = "<group>"; };
+		9B67AEB32B873E320074A6CD /* Guide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guide.swift; sourceTree = "<group>"; };
+		9B67AEB72B8758170074A6CD /* LikeDislikeModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeDislikeModifier.swift; sourceTree = "<group>"; };
+		9B67AECD2B8834960074A6CD /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		9B67AECF2B8834AB0074A6CD /* Interests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Interests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B67AE8F2B87339B0074A6CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5728B32B883707000D777E /* SQLite.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9B04CFE62B89DCE7007C2255 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9B5728B62B8837D1000D777E /* DBUtil.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9B57289B2B8836F1000D777E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B5728A52B8836F1000D777E /* SQLite.framework */,
+				9B5728A72B8836F1000D777E /* SQLiteTests iOS.xctest */,
+				9B5728A92B8836F1000D777E /* SQLite.framework */,
+				9B5728AB2B8836F1000D777E /* SQLiteTests Mac.xctest */,
+				9B5728AD2B8836F1000D777E /* SQLite.framework */,
+				9B5728AF2B8836F1000D777E /* SQLiteTests tvOS.xctest */,
+				9B5728B12B8836F1000D777E /* SQLite.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B5728B22B883707000D777E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B67AE892B87339B0074A6CD = {
+			isa = PBXGroup;
+			children = (
+				9B57289A2B8836F1000D777E /* SQLite.xcodeproj */,
+				9B67AE942B87339B0074A6CD /* gametintok */,
+				9B67AE932B87339B0074A6CD /* Products */,
+				9B5728B22B883707000D777E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B67AE932B87339B0074A6CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B67AE922B87339B0074A6CD /* gametintok.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B67AE942B87339B0074A6CD /* gametintok */ = {
+			isa = PBXGroup;
+			children = (
+				9B67AEBC2B8804830074A6CD /* videos */,
+				9B67AEA52B87360E0074A6CD /* Model */,
+				9B67AE952B87339B0074A6CD /* gametintokApp.swift */,
+				9B67AEA62B8736A90074A6CD /* View */,
+				9B67AE992B87339C0074A6CD /* Assets.xcassets */,
+				9B67AE9B2B87339C0074A6CD /* Preview Content */,
+				9B67AEAB2B8737520074A6CD /* Data */,
+				9B67AEB02B873D020074A6CD /* Component */,
+				9B04CFE62B89DCE7007C2255 /* Util */,
+			);
+			path = gametintok;
+			sourceTree = "<group>";
+		};
+		9B67AE9B2B87339C0074A6CD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9B67AE9C2B87339C0074A6CD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9B67AEA52B87360E0074A6CD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9B67AEA32B8735F50074A6CD /* VideoContent.swift */,
+				9B67AECD2B8834960074A6CD /* Users.swift */,
+				9B67AECF2B8834AB0074A6CD /* Interests.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9B67AEA62B8736A90074A6CD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9B67AEAC2B873B570074A6CD /* GuideView.swift */,
+				9B237F972B88B72C00DA1E63 /* InfoView.swift */,
+				9B41904F2B899C4C008AE56A /* ContentView.swift */,
+				9B4190512B89A16B008AE56A /* CardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9B67AEAB2B8737520074A6CD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9B67AEA92B87374E0074A6CD /* VideoData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9B67AEB02B873D020074A6CD /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				9B67AEB72B8758170074A6CD /* LikeDislikeModifier.swift */,
+				9B67AEB32B873E320074A6CD /* Guide.swift */,
+				9B04CFE42B89D52B007C2255 /* Header.swift */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		9B67AEBC2B8804830074A6CD /* videos */ = {
+			isa = PBXGroup;
+			children = (
+				9B04CFB52B89BEE9007C2255 /* Apex-1.mp4 */,
+				9B04CFC02B89BEEA007C2255 /* Apex-2.mp4 */,
+				9B04CFCD2B89BEEE007C2255 /* Apex-3.mp4 */,
+				9B04CFCB2B89BEEC007C2255 /* Apex-4.mp4 */,
+				9B04CFCE2B89BEEE007C2255 /* Apex-5.mp4 */,
+				9B04CFCF2B89BEEE007C2255 /* Apex-6.mp4 */,
+				9B04CFBE2B89BEEA007C2255 /* Apex-7.mp4 */,
+				9B04CFCA2B89BEEC007C2255 /* Apex-8.mp4 */,
+				9B04CFC22B89BEEB007C2255 /* Apex-9.mp4 */,
+				9B04CFCC2B89BEED007C2255 /* Apex-10.mp4 */,
+				9B04CFBF2B89BEEA007C2255 /* Sims-1.mp4 */,
+				9B04CFC12B89BEEA007C2255 /* Sims-2.mp4 */,
+				9B04CFBD2B89BEE9007C2255 /* Sims-3.mp4 */,
+				9B04CFC92B89BEEB007C2255 /* Sims-4.mp4 */,
+				9B04CFC52B89BEEB007C2255 /* Sims-5.mp4 */,
+				9B04CFC32B89BEEB007C2255 /* Sims-6.mp4 */,
+				9B04CFC42B89BEEB007C2255 /* Sims-7.mp4 */,
+				9B04CFC62B89BEEB007C2255 /* Sims-8.mp4 */,
+				9B04CFC72B89BEEB007C2255 /* Sims-9.mp4 */,
+				9B04CFC82B89BEEB007C2255 /* Sims-10.mp4 */,
+			);
+			path = videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B67AE912B87339B0074A6CD /* gametintok */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B67AEA02B87339C0074A6CD /* Build configuration list for PBXNativeTarget "gametintok" */;
+			buildPhases = (
+				9B67AE8E2B87339B0074A6CD /* Sources */,
+				9B67AE8F2B87339B0074A6CD /* Frameworks */,
+				9B67AE902B87339B0074A6CD /* Resources */,
+				9B5728B52B883707000D777E /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gametintok;
+			productName = gametintok;
+			productReference = 9B67AE922B87339B0074A6CD /* gametintok.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B67AE8A2B87339B0074A6CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					9B67AE912B87339B0074A6CD = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 9B67AE8D2B87339B0074A6CD /* Build configuration list for PBXProject "gametintok" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B67AE892B87339B0074A6CD;
+			productRefGroup = 9B67AE932B87339B0074A6CD /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9B57289B2B8836F1000D777E /* Products */;
+					ProjectRef = 9B57289A2B8836F1000D777E /* SQLite.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				9B67AE912B87339B0074A6CD /* gametintok */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9B5728A52B8836F1000D777E /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 9B5728A42B8836F1000D777E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B5728A72B8836F1000D777E /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 9B5728A62B8836F1000D777E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B5728A92B8836F1000D777E /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 9B5728A82B8836F1000D777E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B5728AB2B8836F1000D777E /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 9B5728AA2B8836F1000D777E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B5728AD2B8836F1000D777E /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 9B5728AC2B8836F1000D777E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B5728AF2B8836F1000D777E /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 9B5728AE2B8836F1000D777E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B5728B12B8836F1000D777E /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 9B5728B02B8836F1000D777E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B67AE902B87339B0074A6CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B04CFD52B89BEEE007C2255 /* Sims-2.mp4 in Resources */,
+				9B67AE9D2B87339C0074A6CD /* Preview Assets.xcassets in Resources */,
+				9B04CFE02B89BEEE007C2255 /* Apex-10.mp4 in Resources */,
+				9B04CFDD2B89BEEE007C2255 /* Sims-4.mp4 in Resources */,
+				9B04CFD62B89BEEE007C2255 /* Apex-9.mp4 in Resources */,
+				9B04CFD42B89BEEE007C2255 /* Apex-2.mp4 in Resources */,
+				9B04CFE12B89BEEE007C2255 /* Apex-3.mp4 in Resources */,
+				9B04CFE22B89BEEE007C2255 /* Apex-5.mp4 in Resources */,
+				9B04CFDB2B89BEEE007C2255 /* Sims-9.mp4 in Resources */,
+				9B67AE9A2B87339C0074A6CD /* Assets.xcassets in Resources */,
+				9B04CFD72B89BEEE007C2255 /* Sims-6.mp4 in Resources */,
+				9B04CFD92B89BEEE007C2255 /* Sims-5.mp4 in Resources */,
+				9B04CFDA2B89BEEE007C2255 /* Sims-8.mp4 in Resources */,
+				9B04CFD82B89BEEE007C2255 /* Sims-7.mp4 in Resources */,
+				9B04CFD02B89BEEE007C2255 /* Apex-1.mp4 in Resources */,
+				9B04CFDF2B89BEEE007C2255 /* Apex-4.mp4 in Resources */,
+				9B04CFDC2B89BEEE007C2255 /* Sims-10.mp4 in Resources */,
+				9B04CFD12B89BEEE007C2255 /* Sims-3.mp4 in Resources */,
+				9B04CFE32B89BEEE007C2255 /* Apex-6.mp4 in Resources */,
+				9B04CFD22B89BEEE007C2255 /* Apex-7.mp4 in Resources */,
+				9B04CFDE2B89BEEE007C2255 /* Apex-8.mp4 in Resources */,
+				9B04CFD32B89BEEE007C2255 /* Sims-1.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B67AE8E2B87339B0074A6CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B237F982B88B72C00DA1E63 /* InfoView.swift in Sources */,
+				9B04CFE52B89D52B007C2255 /* Header.swift in Sources */,
+				9B67AED02B8834AB0074A6CD /* Interests.swift in Sources */,
+				9B67AE962B87339B0074A6CD /* gametintokApp.swift in Sources */,
+				9B4190522B89A16B008AE56A /* CardView.swift in Sources */,
+				9B67AEB82B8758170074A6CD /* LikeDislikeModifier.swift in Sources */,
+				9B5728B72B8837D1000D777E /* DBUtil.swift in Sources */,
+				9B67AEB42B873E320074A6CD /* Guide.swift in Sources */,
+				9B67AECE2B8834960074A6CD /* Users.swift in Sources */,
+				9B4190502B899C4C008AE56A /* ContentView.swift in Sources */,
+				9B67AEAD2B873B570074A6CD /* GuideView.swift in Sources */,
+				9B67AEA42B8735F50074A6CD /* VideoContent.swift in Sources */,
+				9B67AEAA2B87374E0074A6CD /* VideoData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9B67AE9E2B87339C0074A6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9B67AE9F2B87339C0074A6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B67AEA12B87339C0074A6CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gametintok/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silly.gametintok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9B67AEA22B87339C0074A6CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gametintok/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silly.gametintok;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B67AE8D2B87339B0074A6CD /* Build configuration list for PBXProject "gametintok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B67AE9E2B87339C0074A6CD /* Debug */,
+				9B67AE9F2B87339C0074A6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B67AEA02B87339C0074A6CD /* Build configuration list for PBXNativeTarget "gametintok" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B67AEA12B87339C0074A6CD /* Debug */,
+				9B67AEA22B87339C0074A6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B67AE8A2B87339B0074A6CD /* Project object */;
+}
