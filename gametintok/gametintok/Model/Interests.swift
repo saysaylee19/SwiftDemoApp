@@ -2,7 +2,7 @@
 
 import Foundation
 
-struct Interests
+struct Interests :Hashable
 {
     var id : Int
     var userId : Int

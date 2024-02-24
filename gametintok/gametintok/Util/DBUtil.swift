@@ -388,6 +388,28 @@ func deleteByVideoId(id:Int) {
             return users
         }
     
+    func getInterestsByUser(userID: Int) -> [Interests] {
+            let queryStatementString = "SELECT * FROM interests where userId = ? ;"
+            var queryStatement: OpaquePointer? = nil
+            var users : [Interests] = []
+            if sqlite3_prepare_v2(db, queryStatementString, -1, &queryStatement, nil) == SQLITE_OK {
+                sqlite3_bind_int(queryStatement, 1, Int32(userID))
+                while sqlite3_step(queryStatement) == SQLITE_ROW {
+                    let id = sqlite3_column_int(queryStatement, 0)
+                    let userId = sqlite3_column_int(queryStatement, 1)
+                    let vidId = String(describing: String(cString: sqlite3_column_text(queryStatement, 2)))
+                    let reaction = sqlite3_column_int(queryStatement, 3)
+                    users.append(Interests(id: Int(id), userid: Int(userId), vidId: vidId, reaction: Int(reaction)))
+                    print("Query Result:")
+                    print("\(id) | \(userId) | \(vidId) | \(reaction)")
+                }
+            } else {
+                print("SELECT statement could not be prepared for Interests")
+            }
+            sqlite3_finalize(queryStatement)
+            return users
+        }
+    
     
     func doesUserLikeVideo(userID: Int,vidId: String) -> Interests {
             let queryStatementString = "SELECT * FROM interests where userId = ? and vidId = ?;"

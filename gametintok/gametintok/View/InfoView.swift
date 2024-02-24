@@ -8,6 +8,11 @@ struct InfoView: View {
     
     @Environment(\.presentationMode) var presentationMode
     
+    func getInterests()->[Interests]
+    {
+        return db.db.getInterestsByUser(userID: db.db.getCurrentUser().userId)
+    }
+    
     var body: some View {
         ScrollView(.vertical,showsIndicators: false)
         {
@@ -26,6 +31,22 @@ struct InfoView: View {
                 Spacer(minLength: 10)
             
                 Spacer(minLength: 10)
+                
+                
+                VStack {
+                    ForEach(getInterests(), id: \.self) { interst in
+                        if interst.reaction == 1
+                        {
+                            Text(" User likes \(interst.vidId)").lineLimit(nil)
+                        }
+                       else
+                        {
+                           Text(" User dislikes \(interst.vidId) ").lineLimit(nil)
+                       }
+                    }
+                }
+
+                
                 
                 Button(action: {
                     self.presentationMode.wrappedValue.dismiss()
